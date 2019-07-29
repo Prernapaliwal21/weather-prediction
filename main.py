@@ -4,9 +4,7 @@ from sklearn.externals import joblib
 import pandas as pd
 import traceback
 import requests
-from werkzeug.wsgi import DispatcherMiddleware
 
-from hello import app as app2
 import dash
 import dash_html_components as html
 import dash_core_components as dcc
